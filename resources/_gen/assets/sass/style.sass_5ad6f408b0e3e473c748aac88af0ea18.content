@@ -6190,7 +6190,7 @@ Navbar
   .navbar.is-fresh .navbar-item {
     color: #999; }
     .navbar.is-fresh .navbar-item.is-secondary:hover {
-      color: #F39200 !important; }
+      color: #AD3DA4 !important; }
     .navbar.is-fresh .navbar-item.has-dropdown {
       padding: 10px 0; }
       .navbar.is-fresh .navbar-item.has-dropdown .navbar-link {
@@ -6205,13 +6205,13 @@ Navbar
         top: 3.4rem;
         min-width: 220px;
         margin-top: 4px;
-        border-top-color: #F39200; }
+        border-top-color: #AD3DA4; }
         .navbar.is-fresh .navbar-item.has-dropdown .navbar-dropdown .navbar-item {
           padding: 10px 20px; }
       .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link {
-        color: #F39200; }
+        color: #AD3DA4; }
         .navbar.is-fresh .navbar-item.has-dropdown:hover .navbar-link:after {
-          border-color: #F39200; }
+          border-color: #AD3DA4; }
     .navbar.is-fresh .navbar-item .signup {
       display: block;
       line-height: 0;
@@ -6225,9 +6225,9 @@ Navbar
     background: #fff;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12); }
     .navbar.is-fresh.is-fixed a {
-      color: #444F60; }
+      color: #000; }
       .navbar.is-fresh.is-fixed a:hover {
-        color: #4FC1EA; }
+        color: #AD3DA4; }
 
 #navbar-clone {
   position: fixed;
@@ -6252,7 +6252,7 @@ div.nav-item.is-drop:hover .dropContain .dropOut {
 
 div.nav-item.is-drop:hover, div.nav-item.is-drop:hover a {
   border-bottom: 1px solid transparent !important;
-  color: #F39200; }
+  color: #AD3DA4; }
 
 div.nav-item.is-drop:hover .dropContain {
   top: 65px;
@@ -6316,7 +6316,7 @@ div.nav-item.is-drop {
       -o-transition: background .1s ease-out;
       transition: background .1s ease-out; }
       div.nav-item.is-drop .dropContain .dropOut ul li:hover {
-        background: #EFF4F7;
+        background: #EFEFEF;
         cursor: pointer; }
     div.nav-item.is-drop .dropContain .dropOut ul {
       float: left;
@@ -6326,13 +6326,13 @@ div.nav-item.is-drop {
 Section Styles
 ========================================================================== */
 .section.section-light-grey {
-  background-color: #EFF4F7; }
+  background-color: #EFEFEF; }
 
 .section.section-feature-grey {
   background-color: #fbfbfb; }
 
 .section.section-secondary {
-  background-color: #F39200; }
+  background-color: #AD3DA4; }
 
 .section.section-half {
   height: 75vh !important; }
@@ -6354,7 +6354,7 @@ Section Styles
 .divider {
   height: 3px;
   border-radius: 50px;
-  background: #F39200;
+  background: #AD3DA4;
   width: 60px; }
   .divider.is-centered {
     margin: 0 auto; }
@@ -6370,11 +6370,11 @@ img.pushed-image {
   .media.icon-box .media-content .content p span {
     display: block; }
   .media.icon-box .media-content .content p .icon-box-title {
-    color: #444F60;
+    color: #000;
     font-size: 1.2rem;
     font-weight: 600; }
   .media.icon-box .media-content .content p .icon-box-text {
-    color: #A9ABAC;
+    color: #A9A9A9;
     font-size: 1rem;
     font-weight: 400; }
 
@@ -6398,7 +6398,7 @@ Hero styles
 Fresh Footer
 ========================================================================== */
 footer.footer-dark {
-  background: #444F60;
+  background: #000;
   color: #fff; }
   footer.footer-dark .columns {
     margin-top: 35px; }
@@ -6414,13 +6414,13 @@ footer.footer-dark {
     line-height: 40px;
     font-size: 1.1rem; }
     footer.footer-dark .footer-column ul.link-list a {
-      color: #98a9c3;
+      color: #999;
       font-weight: 400;
       transition: all 0.5s; }
     footer.footer-dark .footer-column ul.link-list :hover {
       color: #fcfcfc; }
   footer.footer-dark .footer-column .level-item .icon {
-    color: #F39200;
+    color: #AD3DA4;
     transition: all 0.5s; }
     footer.footer-dark .footer-column .level-item .icon :hover {
       color: #fcfcfc; }
@@ -6454,8 +6454,8 @@ Classes to change the feel of bulma buttons
 
 .button.primary-btn {
   outline: none;
-  border-color: #4FC1EA;
-  background-color: #4FC1EA;
+  border-color: #AD3DA4;
+  background-color: #AD3DA4;
   color: #fff;
   transition: all 0.5s; }
   .button.primary-btn:hover {
@@ -6464,17 +6464,17 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(79, 193, 234, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(79, 193, 234, 0.2) !important;
     opacity: 0.8; }
   .button.primary-btn.btn-outlined {
-    border-color: #4FC1EA;
-    color: #4FC1EA;
+    border-color: #AD3DA4;
+    color: #AD3DA4;
     background-color: transparent; }
     .button.primary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #4FC1EA; }
+      background-color: #AD3DA4; }
 
 .button.secondary-btn {
   outline: none;
-  border-color: #F39200;
-  background-color: #F39200;
+  border-color: #AD3DA4;
+  background-color: #AD3DA4;
   color: #fff;
   transition: all 0.5s; }
   .button.secondary-btn:hover {
@@ -6483,17 +6483,17 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(243, 146, 0, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(243, 146, 0, 0.2) !important;
     opacity: 0.8; }
   .button.secondary-btn.btn-outlined {
-    border-color: #F39200;
-    color: #F39200;
+    border-color: #AD3DA4;
+    color: #AD3DA4;
     background-color: transparent; }
     .button.secondary-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #F39200; }
+      background-color: #AD3DA4; }
 
 .button.button.accent-btn {
   outline: none;
-  border-color: #00efb7;
-  background-color: #00efb7;
+  border-color: #AD3DA4;
+  background-color: #AD3DA4;
   color: #fff;
   transition: all 0.5s; }
   .button.button.accent-btn:hover {
@@ -6502,12 +6502,12 @@ Classes to change the feel of bulma buttons
     box-shadow: 0 14px 26px -12px rgba(104, 187, 136, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(104, 187, 136, 0.2) !important;
     opacity: 0.8; }
   .button.button.accent-btn.btn-outlined {
-    border-color: #00efb7;
-    color: #00efb7;
+    border-color: #AD3DA4;
+    color: #AD3DA4;
     background-color: transparent; }
     .button.button.accent-btn.btn-outlined:hover {
       color: #fff;
-      background-color: #00efb7; }
+      background-color: #AD3DA4; }
 
 /*! _cards.scss v1.0.0 | Commercial License | built on top of bulma.io/Bulmax */
 /* ==========================================================================
@@ -6524,7 +6524,7 @@ Cards and Card content styles
     padding-top: 25px;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #444F60; }
+    color: #000; }
   .feature-card .card-icon img {
     height: 120px;
     margin-top: 20px; }
@@ -6535,7 +6535,7 @@ Cards and Card content styles
   .feature-card .card-action {
     margin-top: 10px; }
   .feature-card.is-bordered {
-    border: 1px solid #ededed; }
+    border: 1px solid #AD3DA4; }
 
 .flex-card {
   position: relative;
@@ -6556,11 +6556,11 @@ Cards and Card content styles
     .flex-card .navtab-content p {
       padding: 0 0.8rem 20px; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.primary {
-    background-color: #4FC1EA; }
+    background-color: #AD3DA4; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.secondary {
-    background-color: #F39200; }
+    background-color: #AD3DA4; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header.accent {
-    background-color: #00efb7; }
+    background-color: #AD3DA4; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li a {
     color: #f2f2f2; }
   .flex-card .navigation-tabs.outlined-pills .tabs.tabs-header ul li.is-active a {
@@ -6584,25 +6584,25 @@ input.input {
   input.input.is-large {
     padding-bottom: 7px; }
   input.input:focus, input.input:active {
-    border-color: #EFF4F7; }
+    border-color: #EFEFEF; }
   input.input.rounded {
     border-radius: 100px; }
   input.input.is-primary-focus:focus {
-    border-color: #4FC1EA; }
+    border-color: #AD3DA4; }
     input.input.is-primary-focus:focus ~ span.icon i {
-      color: #4FC1EA; }
+      color: #AD3DA4; }
   input.input.is-secondary-focus:focus {
-    border-color: #F39200; }
+    border-color: #AD3DA4; }
     input.input.is-secondary-focus:focus ~ span.icon i {
-      color: #F39200; }
+      color: #AD3DA4; }
   input.input.is-accent-focus:focus {
-    border-color: #00efb7; }
+    border-color: #AD3DA4; }
     input.input.is-accent-focus:focus ~ span.icon i {
-      color: #00efb7; }
+      color: #AD3DA4; }
   input.input.is-bloody-focus:focus {
-    border-color: #FC354C; }
+    border-color: #AD3DA4; }
     input.input.is-bloody-focus:focus ~ span.icon i {
-      color: #FC354C; }
+      color: #AD3DA4; }
 
 .form-footer {
   width: 100%; }
@@ -6717,7 +6717,7 @@ Sidebar Styles
     transform: scale(0.07);
     transform-origin: 0 0; }
     .menu-icon-wrapper svg path {
-      stroke: #F39200;
+      stroke: #AD3DA4;
       stroke-width: 40px;
       stroke-linecap: round;
       stroke-linejoin: round;
@@ -6750,7 +6750,7 @@ Sidebar Styles
     padding: 0; }
 
 .sidebar {
-  background: #344258;
+  background: #333;
   width: 280px;
   height: 100%;
   position: fixed;
@@ -6767,7 +6767,7 @@ Sidebar Styles
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #3d4e68;
+    border-bottom: 1px solid #404040;
     padding: 0 20px; }
     .sidebar .sidebar-header img {
       height: 32px; }
@@ -6780,7 +6780,7 @@ Sidebar Styles
       transition: all .3s;
       cursor: pointer; }
       .sidebar .sidebar-header svg:hover {
-        stroke: #F39200;
+        stroke: #AD3DA4;
         transform: rotate(180deg); }
   .sidebar .inner {
     position: relative; }
@@ -6807,12 +6807,12 @@ Sidebar Styles
       .sidebar .inner .sidebar-menu li.have-children ul {
         padding: 0px; }
       .sidebar .inner .sidebar-menu li.have-children li a {
-        background-color: #2b3648;
+        background-color: #262626;
         padding-left: 62px;
-        border-bottom: 1px solid #303d52;
+        border-bottom: 1px solid #2e2e2e;
         font-size: .8rem; }
         .sidebar .inner .sidebar-menu li.have-children li a:hover {
-          color: #4FC1EA;
+          color: #AD3DA4;
           padding-left: 62px; }
       .sidebar .inner .sidebar-menu li.have-children span::after {
         position: absolute;
@@ -6826,7 +6826,7 @@ Sidebar Styles
     .sidebar .inner li.have-children, .sidebar .inner li {
       position: relative; }
     .sidebar .inner li.have-children.active > a, .sidebar .inner li.have-children.active > a span, .sidebar .inner li.have-children.active > a span:after {
-      color: #F39200; }
+      color: #AD3DA4; }
     .sidebar .inner li.active.have-children span::after {
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
@@ -6907,7 +6907,7 @@ Testimonials Styles
       margin: 0;
       font-weight: 600;
       font-size: 1.2rem;
-      color: #444F60; }
+      color: #000; }
     .testimonial .author span {
       font-size: 0.8em;
       color: #fff;
@@ -7012,7 +7012,7 @@ button:focus, button:active {
 #backtotop.visible a:hover {
   outline: none;
   opacity: 0.9;
-  background: #F39200; }
+  background: #AD3DA4; }
 
 #backtotop a {
   outline: none;
@@ -7021,7 +7021,7 @@ button:focus, button:active {
   display: block;
   width: 46px;
   height: 46px;
-  background-color: #66676b;
+  background-color: #666;
   opacity: 1;
   transition: all 0.3s;
   border-radius: 50%;
