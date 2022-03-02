@@ -2,7 +2,7 @@ baseURL: http://asyncplus.codes/
 languageCode: en-us
 title: Async+ ⛓
 theme: fresh
-googleAnalytics: G-MFM548HGQ5
+googleAnalytics: UA-221751024-1
 # Disables warnings
 disableKinds:
 - taxonomy
