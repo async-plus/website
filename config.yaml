@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "https://github.com/async-plus/async-plus/blob/main/Documentation/getting-started.md"
+    buttonlink: "https://docs.asyncplus.codes/getting-started/"
     # Hero image (from static/images/___)
     image: shot-sketch.png
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -41,7 +41,7 @@ params:
   - title: Home
     url: /
   - title: Docs
-    url: https://github.com/async-plus/async-plus/blob/main/Documentation/index.md
+    url: https://docs.asyncplus.codes/
   - title: GitHub
     url: https://github.com/async-plus/async-plus/
   - title: Chat
@@ -69,8 +69,8 @@ params:
         title: "Docs"
         links:
         - text: Index
-          link: https://github.com/async-plus/async-plus/blob/main/Documentation/index.md
+          link: https://docs.asyncplus.codes/
         - text: Getting Started
-          link: https://github.com/async-plus/async-plus/blob/main/Documentation/getting-started.md
+          link: https://docs.asyncplus.codes/getting-started/
         - text: Operations Reference
-          link: https://github.com/async-plus/async-plus/blob/main/Documentation/operations.md
+          link: https://docs.asyncplus.codes/operations/
