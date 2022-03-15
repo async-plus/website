@@ -3,6 +3,7 @@ languageCode: en-us
 title: Async+ ⛓
 theme: fresh
 googleAnalytics: UA-221751024-1
+enableRobotsTXT: true
 # Disables warnings
 disableKinds:
 - taxonomy
