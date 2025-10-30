@@ -1,4 +1,4 @@
-baseURL: https://asyncplus.codes
+baseURL: https://asyncplus.gabemontague.com
 languageCode: en-us
 title: Async+ ⛓
 theme: fresh
@@ -6,8 +6,8 @@ googleAnalytics: UA-221751024-1
 enableRobotsTXT: true
 # Disables warnings
 disableKinds:
-- taxonomy
-- taxonomyTerm
+  - taxonomy
+  - taxonomyTerm
 markup:
   goldmark:
     renderer:
@@ -19,12 +19,12 @@ params:
   # Used as meta data; describe your site to make Google Bots happy
   description:
   navbarlogo:
-  # Logo (from static/images/logos/___)
+    # Logo (from static/images/logos/___)
     image: logos/text-logo.svg
     link: /
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
     # Main hero title
     title: Chainable async/await in Swift
@@ -33,20 +33,20 @@ params:
     # Button text
     buttontext: Get started
     # Where the main hero button links to
-    buttonlink: "https://docs.asyncplus.codes/getting-started/"
+    buttonlink: "https://asyncplus-docs.gabemontague.com/getting-started/"
     # Hero image (from static/images/___)
     image: shot-sketch.png
     # Footer logos (from static/images/logos/clients/___.svg)
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Home
-    url: /
-  - title: Docs
-    url: https://docs.asyncplus.codes/
-  - title: GitHub
-    url: https://github.com/async-plus/async-plus/
-  - title: Chat
-    url: https://discord.gg/vaAhGvvHpW
+    - title: Home
+      url: /
+    - title: Docs
+      url: https://asyncplus-docs.gabemontague.com/
+    - title: GitHub
+      url: https://github.com/async-plus/async-plus/
+    - title: Chat
+      url: https://discord.gg/vaAhGvvHpW
   footer:
     # Logo (from /images/logos/___)
     logo: text-logo.svg
@@ -54,24 +54,24 @@ params:
     socialmediatitle: Follow Us
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/async-plus
-      icon: github
-    - link: https://twitter.com/async_plus
-      icon: twitter
+      - link: https://github.com/async-plus
+        icon: github
+      - link: https://twitter.com/async_plus
+        icon: twitter
     quicklinks:
       column1:
         title: "Community"
         links:
-        - text: Discord
-          link: https://discord.gg/vaAhGvvHpW
-        - text: GitHub
-          link: https://github.com/async-plus/async-plus
+          - text: Discord
+            link: https://discord.gg/vaAhGvvHpW
+          - text: GitHub
+            link: https://github.com/async-plus/async-plus
       column2:
         title: "Docs"
         links:
-        - text: Index
-          link: https://docs.asyncplus.codes/
-        - text: Getting Started
-          link: https://docs.asyncplus.codes/getting-started/
-        - text: Operations Reference
-          link: https://docs.asyncplus.codes/operations/
+          - text: Index
+            link: https://asyncplus-docs.gabemontague.com/
+          - text: Getting Started
+            link: https://asyncplus-docs.gabemontague.com/getting-started/
+          - text: Operations Reference
+            link: https://asyncplus-docs.gabemontague.com/operations/
